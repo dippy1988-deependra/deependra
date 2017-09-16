@@ -1,0 +1,120 @@
+.left_side_bar{
+    /* width:250px; */
+    height: 100vh;
+    border:1px solid black;
+    background-color: #222d32;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.header_logo_image{
+    position: relative;
+    top: 8px;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-52% , 0%);
+} 
+ul{
+    padding: 8px 0px 0px 20px;
+} 
+ul li{
+    list-style-type: none;
+    position: relative;
+    padding: 10px 10px 10px 0px;
+    margin: 0px;
+} 
+ul li a{
+    color: white;
+}
+.header_wrapper{
+    height: 70px;
+    background-color:#3c8dbc;
+}
+.header_wrapper h4{
+    position: absolute;
+    margin-top: 25px;
+    color:white;
+}
+.header_user_right_image{
+    height: 38px;
+    float: right;
+    position: relative;
+    margin-top:15px;
+    right:30px;
+}
+.admin_panel_boottom{
+    margin-top:5px!important;
+    padding:0px!important;
+}
+.caption p{
+    text-align:center;
+    color:black;
+    font-size:14px;
+}
+.content{
+    min-height: 250px;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.section_content_wrapper{
+    margin-left: 210px;
+    width: auto;
+    height: 100vh;
+    position: absolute;
+    padding-top: 70px;
+}
+
+.cards_wrapper{
+    background-color: #efecec;
+    padding: 8px 10px 8px 10px;
+    border: 1px solid lightgray;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    width: 32.333%; 
+}
+.col-lg-12{
+    padding-top:22px;
+}
+.media-heading {
+    margin-top: 3px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.{
+    height: 30px;
+    position: relative;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50% ,50%);
+}
+
+
+
+@media only screen and (max-width:320px) {
+.section_content_wrapper{
+    
+    margin-left: 0px;
+    width: auto;
+    height: 100vh;
+    position: absolute;
+    padding-top: 0px;
+    
+}  
+.cards_wrapper{
+    background-color: #efecec;
+    padding: 8px 10px 8px 10px;
+    border: 1px solid lightgray;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    width: 95.333%;  
+}
+}
+.icons{
+    color: white;
+    position: relative;
+    left: -5px;
+    top: -1px;
+}

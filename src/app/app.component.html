@@ -1,3 +1,37 @@
-<h1>
-  {{title}}
-</h1>
+<!-- LEFT SIDE BAR CONTENT -->
+
+    <div class="col-lg-2 left_side_bar">
+        <img src="assets/logo_color.png" class="header_logo_image"/>
+        <hr>
+            <ul>
+                <li  *ngFor="let item of sidebar_menu"><a href="#">{{item.menu}}</a></li>
+            </ul>
+    </div>
+<!-- END LEFT SIDE BAR CONTENT -->
+
+<!-- HEADER SECTION -->
+    <div class="col-lg-10  header_wrapper">
+        <h4>DASHBOARD</h4>
+            <img src="../assets/2.png" class="header_user_right_image">
+    </div>
+<!-- END HEADER SECTION -->
+
+<!-- CONTENT SECTION -->
+    <div class="section_content_wrapper">
+        <div class="col-lg-12">
+            <div class="col-lg-4 cards_wrapper" *ngFor="let item of items" (click)="myEvent($event)">
+                <div class="media">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object" src="../assets/5.png" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">{{item.name}}</h4>
+                        <p>{{item.address}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- END CONTENT SECTION -->
